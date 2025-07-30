@@ -1,4 +1,7 @@
-
+*
+{
+    margin-bottom: 0px;
+}
 /* sub-header section */
 .subheader
 {
@@ -491,4 +494,118 @@ header a:hover
     color: white;
     cursor: pointer;
     /* border:none; */
+}
+/* Contact Us section */
+.contact
+{
+    display: flex;
+    /* align-items: center; */
+    margin-top: 100px;
+    background-image: url('./Assets/contact-bg.jpg');
+    width:1100px%;
+    height: 500px;
+    position: relative;
+
+}
+.contact h2
+{
+    position: absolute;
+    left: 550px;
+    color: #EE5921;
+}
+
+.contact h1
+{
+    display: flex;
+    position: absolute;
+    top:50px;
+    left:450px;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+.conmap
+{
+    position: absolute;
+    top:300px;
+    margin-left: 80px;
+}
+/* forms section */
+.contactform
+{
+    position:absolute;
+    left:800px;
+    top:320px;
+    color: white;
+    width: 350px;
+    /* height: 750px; */
+    background-color:white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 8px whitesmoke;
+}
+.labels
+{
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.labels>input
+{
+    border-radius: 20px;
+    padding:10px 100px 10px 5px;
+    margin-top: 20px;
+    background-color:whitesmoke;
+    border:none;
+}
+
+.labels>textarea
+{
+    padding: 30px 70px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+.contactform button
+{
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding:10px 30px ;
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    font-size:15px;
+}
+.contactform button:hover
+{
+    background-color: #EE5921;
+    cursor: pointer;
+}
+/* cards-section */
+
+.contact-cards
+{
+    display: flex;
+    margin-top: 300px;
+    /* gap:50px; */
+    align-items: center;
+    margin-bottom: 50px;
+}
+.phone,.mail
+{
+    display: flex;
+    gap:30px;
+    align-items: center;
+    width:20%;
+    background-color: white;
+    margin-left: 70px;
+    border-radius: 10px;
+    padding:0px 0px 0px 10px;
+    box-shadow: 0px 0px 0px 5px whitesmoke;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    padding:40px 0px 40px 100px;
 }
