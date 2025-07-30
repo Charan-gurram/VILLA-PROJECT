@@ -63,8 +63,10 @@ header ul
 }
 header ul li 
 {
-   
     list-style-type: none;
+    font:15px popins,sans-serif;
+    /* font-weight:bold; */
+
 }
 header ul li a
 {
@@ -74,7 +76,27 @@ header ul li a
 }
 header button
 {
-    border-radius:20px;
+    display: flex;
+    align-items: center;
+    gap: 6px; 
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0px 12px 0px 6px;
+    font-size: 12px;
+
+}
+header>button>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 26px;
+    height: 26px;
+    font-size: 12px;
+    border-radius: 50%;
+    background-color: #EE5921;
 }
 header a:hover
 {
@@ -347,24 +369,126 @@ header a:hover
     border-radius: 5px;
 }
 /* properties section */
+.propdeals
+{
+    background-color:whitesmoke;
+}
+
 .flat-details
 {
-    width: 250px;
-    height: 400px;
-    background-color: snow;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ftcards
+{
+    width: 20%;
+    height: 390px;
+    border: 2px;
     border-radius: 10px;
-    margin: 10px 0px 0px 80px;
+    padding-left: 10px;
+    background-color: white;
+    margin-left: 70px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.flatcards
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
 }
 .flat-details hr
 {
     width: 70%;
 }
-.flatcards
+
+.propimage img
+{
+    width: 400px;
+    height: 380px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    /* margin-bottom: 100px; */
+}
+.flatcontent>button
+{
+    display: flex;
+    padding:10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    gap:10px;
+    margin-top: 100px;
+}
+
+/* 6 properties section */
+.prophead
+{
+    margin: 80px 0px 0px 500px;
+}
+.properties
+{
+    margin: 50px 0px 30px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.props img
+{
+    padding: 20px 20px 20px 30px;
+    width: 300px;
+    border-radius: 60px;
+}
+.props
+{
+    width: 360px;
+    height: 550px;
+    background-color:#FAFAFA;
+    margin-bottom: 30px;
+}
+.props h3
+{
+    margin-left: 50px;
+}
+.propcon
 {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    /* gap:40px; */
 }
-
-
+.prop-par
+{
+    margin-left: 40px;
+}
+.propcon>.proptype
+{
+    width:90px;
+    background-color: #ee582170;
+    border-radius: 15px;
+    padding:5px 10px 5px 10px;
+}
+.propcon>.price
+{
+    color:#f35525;
+    
+    font-weight:bolder;
+}
+.props button
+{
+    border-radius: 20px;
+    padding:10px 25px 10px 25px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+.props button:hover
+{
+    background-color: #EE5921;
+    color: white;
+    cursor: pointer;
+    /* border:none; */
+}
