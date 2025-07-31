@@ -14,14 +14,14 @@
         <div class="leftsubheader">
             <div class="email">
                 <i class="fas fa-envelope"></i> abc@gmail.com
-            </div>
+            </div>|
             <div class="location">
                 <i class="fas fa-map"></i> Hyderabad, India
             </div>
         </div>
         <div class="rightsubheader">
             <div class="social-icons">
-                <a href="#" "><i class=" fab fa-facebook-f"></i></a>
+                <a href="#"><i class=" fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -29,15 +29,21 @@
         </div>
     </div>
     <header>
-        <h2>VILLA</h2>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Properties</a></li>
-            <li><a href="">Property Details</a></li>
-            <li><a href="">Contact Us</a></li>
-            <button><span class="fa fa-calendar" style="color: #f35525;"></span>Schedule a visit</button>
-        </ul>
+    <h2>VILLA</h2>
+    <ul>
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="Properties.html" class="nav-link">Properties</a></li>
+        <li><a href="Property Details.html" class="nav-link">Property Details</a></li>
+        <li><a href="contactus.html" class="nav-link">Contact Us</a></li>
+        <li>
+            <button class="schedule-btn">
+                <span class="fa fa-calendar"></span>
+                Schedule a Visit
+            </button>
+        </li>
+    </ul>
     </header>
+
 
     <div class="banner">
         <img src="./Assets/banner-01.jpg" alt="Villa">
@@ -337,14 +343,14 @@
         <h1> Get In Touch <br>With Our Agents</h1>
 
         <div class="conmap">
-            <iframe src="https://rb.gy/lmtwiz" width="600" height="450"></iframe>
+            <iframe src="https://rb.gy/lmtwiz" width="600" height="450" loading="lazy"></iframe>
         </div>
 
         <div class="contactform">
             <form action="">
                 <div class="labels">
                     <label for="name">Name</label><br>
-                    <input type="text" placeholder="Your name..." autofocus><br>
+                    <input type="text" placeholder="Your name..."><br>
                 </div>
 
                 <div class="labels">
@@ -375,7 +381,7 @@
                 <p>Phone Number</p>
             </div>
         </div>
-        
+
 
         <div class="mail">
             <div><img src="./Assets/email-icon.png" alt=""></div>
@@ -387,9 +393,10 @@
         </div>
     </div>
 
-    <footer>
+    <footer class="homefooter">
         Copyright © Achievers It. All rights reserved. Design: Charan
     </footer>
+
 </body>
 
 </html>
